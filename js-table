@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+
+
+<table id="myTable">
+  <tr>
+    <td>cell 1</td>
+    <td>cell 2</td>
+    <td>cell 3</td>
+  </tr>
+  <tr>
+    <td>cell 3</td>
+    <td>cell 4</td>
+    <td>cell 3</td>
+  </tr>
+  <tr>
+    <td>cell 3</td>
+    <td>cell 4</td>
+    <td>cell 3</td>
+  </tr>
+</table>
+
+
+
+
+
+</body>
+</html>

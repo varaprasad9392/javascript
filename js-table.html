@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+
+
+<table class="mytable">
+  <tr>
+    <td>&nbsp</td>
+    <td>&nbsp</td>
+    <td>&nbsp</td>
+  </tr>
+  <tr>
+    <td>&nbsp</td>
+    <td>&nbsp</td>
+    <td>&nbsp</td>
+   
+  </tr>
+  <tr>
+    <td>&nbsp</td>
+    <td>&nbsp</td>
+    <td>&nbsp</td>
+    
+  </tr>
+</table>
+<script type="text/javascript">
+  let t1=document.getElementsByTagName('td');
+  for(var i=0;i<t1.length;i++)
+  {
+      // t1[i].innerText=i+1;
+         t1[i].innerText=t1.length-i;
+  }
+</script>
+</body>
+</html>
